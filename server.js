@@ -4,6 +4,11 @@ const express = require('express');
 const port = 5000;
 
 const app = express();
+
+// body parser middleware
+app.use(express.json()); // that allows us to send rout json to the server.
+app.use(express.urlencoded({ extended: false }));
+// these lines above allows us to send req.body.whateverfield
 // this app is an object containing all kind of methods , like creating routes, our server etc..
 
 
