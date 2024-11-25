@@ -1,1 +1,1 @@
-# Randomideas
+# A fullstack app Randomideas
